@@ -1,5 +1,5 @@
 // GANTI dua nilai ini dengan Project URL dan anon/publishable key Supabase Anda.
-const SUPABASE_URL = "https://patgetikkfsszjxrztgg.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://patgetikkfsszjxrztgg.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_q-vZb4JyCOJhXL6q88X3SQ_bYGABXZh";
 const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const $ = id => document.getElementById(id);
